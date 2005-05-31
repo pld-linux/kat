@@ -1,4 +1,5 @@
 Summary:	Desktop Search Engine for Linux
+Summary(pl):	Silnik wyszukiwania dla Linuksa
 Name:		kat
 Version:	0.5.3
 Release:	1
@@ -10,8 +11,8 @@ URL:		http://kat.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.1
 BuildRequires:	poppler-qt-devel >= 0.3.0
-BuildRequires:	sqlite3-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
+BuildRequires:	sqlite3-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,6 +25,17 @@ using Qt3, KDE and KIO libraries. The application is based on the
 extensible kfile plugin architecture of KDE in order to facilitate the
 creation of new media managers for emerging file formats. Kat is the
 first KDE application using the new fulltext kfile plugins.
+
+%description -l pl
+Kat to aplikacja dla KDE przeznaczona do indeksowania plików. Wydobywa
+metainformacje, pe³ny tekst oraz miniaturki z dokumentów, obrazków,
+mp3 i innych mediów umo¿liwiaj±c szybkie i dok³adne odtwarzanie
+informacji. Podobnie do windowsowej aplikacji WhereIsIt, a tak¿e
+podobnie do Google Desktop Search, Kat jest napisany ca³kowicie w C++
+przy u¿yciu bibliotek Qt3, KDE i KIO. Aplikacja jest oparta na
+rozszerzalnej architekturze wtyczek kfile z KDE, aby u³atwiæ tworzenie
+nowych zarz±dców mediów dla pojawiaj±cych siê formatów plików. Kat to
+pierwsza aplikacja KDE u¿ywaj±ca nowych pe³notekstowych wtyczek kfile.
 
 %prep
 %setup -q
@@ -59,7 +71,7 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
-%attr(755,root,root) %{_libdir}/lib*.so.*
+%attr(755,root,root) %{_libdir}/lib*.so.*.*.*
 %attr(755,root,root) %{_libdir}/kde3/*.so
 %{_libdir}/kde3/*.la
 %{_desktopdir}/kde/*.desktop
