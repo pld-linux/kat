@@ -1,5 +1,5 @@
 Summary:	Desktop Search Engine for Linux
-Summary(pl):	Silnik wyszukiwania dla Linuksa
+Summary(pl.UTF-8):   Silnik wyszukiwania dla Linuksa
 Name:		kat
 Version:	0.5.3
 Release:	1
@@ -26,16 +26,16 @@ extensible kfile plugin architecture of KDE in order to facilitate the
 creation of new media managers for emerging file formats. Kat is the
 first KDE application using the new fulltext kfile plugins.
 
-%description -l pl
-Kat to aplikacja dla KDE przeznaczona do indeksowania plikÛw. Wydobywa
-metainformacje, pe≥ny tekst oraz miniaturki z dokumentÛw, obrazkÛw,
-mp3 i innych mediÛw umoøliwiaj±c szybkie i dok≥adne odtwarzanie
-informacji. Podobnie do windowsowej aplikacji WhereIsIt, a takøe
-podobnie do Google Desktop Search, Kat jest napisany ca≥kowicie w C++
-przy uøyciu bibliotek Qt3, KDE i KIO. Aplikacja jest oparta na
-rozszerzalnej architekturze wtyczek kfile z KDE, aby u≥atwiÊ tworzenie
-nowych zarz±dcÛw mediÛw dla pojawiaj±cych siÍ formatÛw plikÛw. Kat to
-pierwsza aplikacja KDE uøywaj±ca nowych pe≥notekstowych wtyczek kfile.
+%description -l pl.UTF-8
+Kat to aplikacja dla KDE przeznaczona do indeksowania plik√≥w. Wydobywa
+metainformacje, pe≈Çny tekst oraz miniaturki z dokument√≥w, obrazk√≥w,
+mp3 i innych medi√≥w umo≈ºliwiajƒÖc szybkie i dok≈Çadne odtwarzanie
+informacji. Podobnie do windowsowej aplikacji WhereIsIt, a tak≈ºe
+podobnie do Google Desktop Search, Kat jest napisany ca≈Çkowicie w C++
+przy u≈ºyciu bibliotek Qt3, KDE i KIO. Aplikacja jest oparta na
+rozszerzalnej architekturze wtyczek kfile z KDE, aby u≈Çatwiƒá tworzenie
+nowych zarzƒÖdc√≥w medi√≥w dla pojawiajƒÖcych siƒô format√≥w plik√≥w. Kat to
+pierwsza aplikacja KDE u≈ºywajƒÖca nowych pe≈Çnotekstowych wtyczek kfile.
 
 %prep
 %setup -q
