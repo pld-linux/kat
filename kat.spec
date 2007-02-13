@@ -1,5 +1,5 @@
 Summary:	Desktop Search Engine for Linux
-Summary(pl.UTF-8):   Silnik wyszukiwania dla Linuksa
+Summary(pl.UTF-8):	Silnik wyszukiwania dla Linuksa
 Name:		kat
 Version:	0.5.3
 Release:	1
